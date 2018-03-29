@@ -1,5 +1,3 @@
-export const logger = message => {
-  console.log(message)
-}
-
-// logger('worked!');
+export const logger = (message) => {
+ message = `new message: ${message}`;
+};
